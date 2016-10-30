@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /pikko/aptek/www/
+	
+	RewriteRule ^$ index.php?url=/ [QSA,L]
+	
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule (.*) index.php?url=$1 [QSA,L]
+</IfModule>
