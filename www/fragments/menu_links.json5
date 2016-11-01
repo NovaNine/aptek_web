@@ -1,0 +1,45 @@
+[
+	{
+		html: "Home",
+		link: "home/",
+		homepage: true,
+		page: "home.php",
+		template: "default.php",
+		title: 'APTEK :: Computer Support in the Guelph Area'
+	},
+	{
+		html: "Services",
+		link: "services/",
+		page: "services.php",
+		template: "default.php",
+		title: 'APTEK :: Services'
+	},
+	/*{
+		html: "Blog",
+		link: "blog/",
+		page: "blog.php",
+		template: "default.php",
+		title: 'APTEK :: Computer Support Blog'
+	},
+	{
+		html: "About Us",
+		link: "about-us/",
+		page: "about_us.php",
+		template: "default.php",
+		title: 'APTEK :: About Us'
+	},*/
+	{
+		html: "Contact Us",
+		link: "contact-us/",
+		page: "contact_us.php",
+		template: "default.php",
+		title: 'APTEK :: Contact Us'
+	},
+	{
+		html: "Schedule Service",
+		link: "schedule-service/",
+		page: "appointment.php",
+		template: "default.php",
+		title: 'APTEK :: Schedule Service'
+	}
+]
